@@ -1,0 +1,62 @@
+[
+  {
+    "month": "Jan",
+    "service": "EC2",
+    "cost": 120
+  },
+  {
+    "month": "Jan",
+    "service": "S3",
+    "cost": 40
+  },
+  {
+    "month": "Jan",
+    "service": "RDS",
+    "cost": 70
+  },
+  {
+    "month": "Feb",
+    "service": "EC2",
+    "cost": 150
+  },
+  {
+    "month": "Feb",
+    "service": "S3",
+    "cost": 60
+  },
+  {
+    "month": "Feb",
+    "service": "RDS",
+    "cost": 65
+  },
+  {
+    "month": "Mar",
+    "service": "EC2",
+    "cost": 140
+  },
+  {
+    "month": "Mar",
+    "service": "S3",
+    "cost": 55
+  },
+  {
+    "month": "Mar",
+    "service": "RDS",
+    "cost": 80
+  },
+  {
+    "month": "Apr",
+    "service": "EC2",
+    "cost": 170
+  },
+  {
+    "month": "Apr",
+    "service": "S3",
+    "cost": 62
+  },
+  {
+    "month": "Apr",
+    "service": "RDS",
+    "cost": 78
+  }
+]

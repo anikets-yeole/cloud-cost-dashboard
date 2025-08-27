@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "service": "EC2",
+    "region": "us-east-1",
+    "name": "web-app-1",
+    "instances": 3,
+    "status": "running",
+    "tags": {
+      "env": "prod"
+    }
+  },
+  {
+    "id": 2,
+    "service": "EC2",
+    "region": "us-east-1",
+    "name": "web-app-2",
+    "instances": 2,
+    "status": "stopped",
+    "tags": {
+      "env": "staging"
+    }
+  },
+  {
+    "id": 3,
+    "service": "S3",
+    "region": "us-east-1",
+    "name": "assets-bucket",
+    "buckets": 1,
+    "status": "active",
+    "tags": {
+      "env": "prod"
+    }
+  },
+  {
+    "id": 4,
+    "service": "RDS",
+    "region": "ap-south-1",
+    "name": "orders-db",
+    "databases": 1,
+    "status": "running",
+    "tags": {
+      "env": "prod"
+    }
+  },
+  {
+    "id": 5,
+    "service": "Lambda",
+    "region": "eu-west-1",
+    "name": "img-resizer",
+    "functions": 5,
+    "status": "active",
+    "tags": {
+      "env": "dev"
+    }
+  },
+  {
+    "id": 6,
+    "service": "EC2",
+    "region": "ap-south-1",
+    "name": "batch-worker",
+    "instances": 5,
+    "status": "running",
+    "tags": {
+      "env": "dev"
+    }
+  }
+]
